@@ -1,0 +1,12 @@
+
+.h1_title{
+  color: rgba(108, 137, 239, 0.909);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+p{
+  color: darkolivegreen;
+}
+.intro{
+  color: darksalmon;
+}
