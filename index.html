@@ -1,4 +1,147 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
+<html lang="en">
+  <head>
+    <title>User's information</title>
+    <style>
+      .heading{
+        font-size: 17px;
+        font-weight: bold;
+        text-align: left;
+      }
+      .text{
+        font-size: 15px;
+      }
+      .fieldset{
+        border: 2px solid rgba(205, 61, 61, 0.461);
+        padding: 5px;
+      }
+      .submit_button{
+        font-size: 15px;
+        background-color: rgb(213, 237, 176);
+        border: 3px;
+        border-radius: 10px;
+        width: 60px;
+        height: 27px;
+      }
+      .submit_button:hover{
+        color: white;
+        background-color: rgb(135, 167, 88);
+      }
+      .reset_button{
+        font-size: 15px;
+        background-color: rgb(249, 188, 167);
+        border: 3px ;
+        border-radius:10px;
+        width: 60px;
+        height: 27px;
+      }
+      .reset_button:hover{
+        color: white;
+        background-color: rgb(202, 59, 59);
+      }
+
+      #experience::-webkit-slider-runnable-track {
+        background: linear-gradient(to right, rgba(209, 209, 236, 0.97) 0%, rgba(113, 110, 109, 0.97) 100%);
+        cursor: pointer;
+        border-radius: 20px;        
+      }
+    </style>
+  </head>
+  <body>
+    <form class="text"> 
+      <fieldset class="fieldset">
+      <legend class="heading">Basic User Information</legend>
+      <label for="FullName">Full Name:</label>
+      <input type="text" id="FullName" name="FullName" required><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <label for="confirmpassword">Confirm Password:</label>
+      <input type="password" id="confirmpassword" name="confirmpassword" required>
+      <br>
+      <label>Gender:</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label>
+    </fieldset>
+    <br>
+
+      <fieldset class="fieldset">
+      <legend class="heading">Address Information</legend>
+      <label for="address">Address:</label>
+      <textarea name="address" id="address" cols="30" rows="2"></textarea><br>
+      <label for="country">Country:</label>
+      <select name="country" id="country">
+        <option value="Moldova">Moldova</option>
+        <option value="Romania">Romania</option>
+        <option value="USA">USA</option>
+        <option value="Germania">Germania</option>
+        <option value="Italia">Italia</option>
+      </select>
+      <br>
+      <label for="city">City:</label>
+      <textarea name="city" id="city" rows="1" cols="20"></textarea>
+      <br>
+      <label for="postal_code">Postal Code:</label>
+      <input type="number" id="postal_code" min="0">
+      </fieldset>
+    <br>
+
+     <fieldset class="fieldset">
+     <legend class="heading">Preferences</legend>
+      <label for="contacts">Preffered contact method:</label>
+      <select name="contacts" id="contacts">
+        <option value="email">Email</option>
+        <option value="phone">Phone</option>
+        <option value="Postal Mail">Postal Mail</option>
+      </select>
+      <br>
+      <label for="color">Favourite color:</label>
+      <input type="color" id="color" name="color">
+     </fieldset>
+    <br>
+    
+     <fieldset class="fieldset">
+     <legend class="heading">Additional Details</legend>
+        <label for="heard_about_us">How you found out about us?</label>
+        <select name="options" id="heard_about_us">
+        <option value="Internet">Internet</option>
+        <option value="Friends">Friends</option>
+        <option value="Ads">Ads</option>
+        <option value="Other">Other</option>
+      </select>
+      <br>
+      <label for="feedback">Feedback:</label>
+      <textarea name="feedback" id="feedback" rows="5" cols="30"></textarea>
+     </fieldset>
+    <br>
+
+     <fieldset class="fieldset">
+     <legend class="heading">Profile</legend>
+      <label for="upload_file">Upload a profile picture</label>
+      <input type="file" id="upload_file" name="upload_file" accept=".jpg, .png">
+    <br>
+      <label for="url">Website URL:</label>
+      <input type="url" id="url" name="url">
+    <br>
+
+      <label for="experience">Experience level with HTML:</label>
+      <input type="range" id="experience" min="1" max="10" value="5" oninput="displayValue.value=experience.value">
+      <output id="displayValue">5</output>
+     </fieldset>
+   </form>
+   <br>
+
+     <button class="submit_button" type="submit">Submit</button>
+     <button class="reset_button" type="reset">Reset</button>
+  </body>
+</html>
+=======
 <html>
   <head>
     <title>The Basic Language of the Web: HTML</title>
@@ -58,3 +201,4 @@
   </body>
 </html>
 
+>>>>>>> main
