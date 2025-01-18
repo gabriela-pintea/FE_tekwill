@@ -1,7 +1,7 @@
 h1{
   font-size: 80px;
   text-shadow: 6px 6px 4px rgba(121, 221, 119, 0.995),
-              -5px -3px 4px rgb(248, 145, 248);
+  -5px -3px 4px rgb(248, 145, 248);
 }
 .container{
   width: 300px;
