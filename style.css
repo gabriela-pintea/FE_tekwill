@@ -1,4 +1,18 @@
 
+html{
+  font-size: 16px;
+}
+h1{
+  font-size: 4rem;
+  background-color: rgba(212, 167, 219, 0.909);
+  opacity: 0.5;
+
+}
+body{
+  background-color: lightgray;
+  font-size: 15px;
+
+}
 .h1_title{
   color: rgba(108, 137, 239, 0.909);
   text-transform: uppercase;
@@ -6,7 +20,85 @@
 }
 p{
   color: darkolivegreen;
+  font-size: 0.5em;
 }
 .intro{
   color: darksalmon;
 }
+a{
+  color: black;
+}
+a:hover{
+  color: tomato;
+}
+h2:first-of-type{
+  color: aquamarine;
+}
+ol li:nth-child(even){
+  color: magenta;
+}
+
+ul.secondlist li:nth-last-child(2){
+  color: yellow;
+}
+
+ul.navibar{
+  list-style-type: none;
+}
+ul.navibar a{
+  text-decoration: none;
+}
+
+nav{
+  background-color: aliceblue;
+}
+
+a.homeicon:before,
+a.abouticon:before,
+a.catalogicon:before,
+a.contactsicon:before{
+  color: red;
+  margin-right: 3px;
+}
+
+a.homeicon:before{
+  content: "*";
+}
+a.abouticon:before{
+  content: "^";
+}
+a.catalogicon:before{
+  content: "*";
+}
+a.contactsicon:before{
+  content: "^";
+}
+
+a.homeicon:after,
+a.abouticon:after,
+a.catalogicon:after,
+a.contactsicon:after{
+  color: blue;
+  margin-left: 3px;
+}
+
+a.homeicon:after{
+  content: "*";
+}
+a.abouticon:after{
+  content: "^";
+}
+a.catalogicon:after{
+  content: "*";
+}
+a.contactsicon:after{
+  content: "^";
+}
+
+img.html-image{
+  width: calc((50vw +150px));
+}
+
+
+
+
