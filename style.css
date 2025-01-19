@@ -1,12 +1,91 @@
+body{
+font-size: 25px;
+font-family: 'Smooch Sans', sans-serif;
+}
+header{
+  background-color: rgb(61, 61, 61);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
 
-.h1_title{
-  color: rgba(108, 137, 239, 0.909);
-  text-transform: uppercase;
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li{
+position: relative;
+margin-right: 15px;
+}
+
+header nav ul li a{
+color: white;
+text-decoration: none;
+display: block;
+padding: 10px;
+}
+
+header nav ul li a:hover{
+  color: red;
+}
+
+.home-button:hover{
+text-decoration: underline;
+color: red;
+}
+
+.about-button:hover{
   text-decoration: underline;
+  color: red;
 }
-p{
-  color: darkolivegreen;
+
+.dropdown1{
+  position: relative;
 }
-.intro{
-  color: darksalmon;
+
+.services-dropdown{
+  display: none;
+  position: absolute;
+  top: 150%;
+  background-color: gray;
+  padding: 10px;
+  width: 170px;
+  border-radius: 3%;
+  left: 0;
+} 
+
+.dropdown1:hover .services-dropdown{
+  display: block;
+}
+
+.services-dropdown li a{
+  display: block;
+  color: white;
+}
+
+.dropdown2{
+display: relative;
+}
+
+.products-dropdown{
+  display: none;
+  position: absolute;
+  top: 150%;
+  background-color: gray;
+  padding: 10px;
+  width: 150px;
+  border-radius: 3%;
+  left: 0;
+}
+
+.dropdown2:hover .products-dropdown{
+  display: block;
+}
+
+.products-dropdown li a{
+  display: block;
+  color: white;
 }
